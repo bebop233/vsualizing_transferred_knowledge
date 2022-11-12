@@ -15,7 +15,7 @@ Many research efforts have been committed to unsupervised domain adaptation (DA)
 
 
 # Base DA methods
-We run our base DA methods based on the implementation of [Transfer Learning Library (tll)](https://github.com/thuml/Transfer-Learning-Library).
+We run our base DA methods based on the implementation of [Transfer Learning Library ](https://github.com/thuml/Transfer-Learning-Library).
 We use the default setting the in their [example codes] (https://github.com/thuml/Transfer-Learning-Library/tree/master/examples/domain_adaptation/image_classification) to run DANN.
 We added the NWD core code from [DALN](https://github.com/xiaoachen98/DALN) to the [MCC](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/domain_adaptation/image_classification/mcc.py) code for NWD+MCC base model. 
 
