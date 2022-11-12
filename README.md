@@ -33,7 +33,7 @@ To load the DomainNet-126 dataset, replace the 'image_list_126' folder under the
        |--- sketch
 
 
-# Running
+# Running the experiments
 1. Follow the [installation instrution](https://github.com/thuml/Transfer-Learning-Library#Installation) of tll liabrary and train the base model with tll.
 2. For NWD+MCC model, add the core code of NWD loss from [DALN](https://github.com/xiaoachen98/DALN) to the [MCC](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/domain_adaptation/image_classification/mcc.py).
 4. Modify the setting file and train our proposed model:
