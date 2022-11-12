@@ -1,4 +1,4 @@
-# Vsualizing-Transferred_Knowledge
+# Vsualizing-Transferred-Knowledge
 Pytorch implementation for paper **Visualizing Transferred Knowledge: An Interpretive Model of Unsupervised Domain Adaptation**. The full code will be released shortly.
 
 # Abstract
