@@ -24,6 +24,7 @@ We added the NWD core code from [DALN](https://github.com/xiaoachen98/DALN) to t
 Please download [Office-Home](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view) and [DomainNet](http://ai.bu.edu/M3SDA/) datasets.
 Load the Office-Home dataset with tll's buiding function.
 To load the DomainNet-126 dataset, replace the 'image_list_126' folder under the DomainNet dierctory and add 'domainnet126.py' to 'tllib/vision/datasets' directory of tll repo and install tll package.
+
     ---DomainNet
        |--- image_list_126
        |--- clipart
@@ -33,7 +34,7 @@ To load the DomainNet-126 dataset, replace the 'image_list_126' folder under the
 
 
 # Running
-1. Pre-train the base model with tll library.
+1. Follow the [installation instrution](https://github.com/thuml/Transfer-Learning-Library#Installation) of tll liabrary and train the base model with tll.
 2. Modify the setting file and train the model:
   > python main_dann.py -gpuid 0
 
